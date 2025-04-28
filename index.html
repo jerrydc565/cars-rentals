@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/login.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="header-logo">
-        <img src="/images/pngwing.com (1).png " alt="" width="30px" />
-        <h2>Unique</h2>
-      </div>
-
-      <ul>
-        <li>About Us</li>
-        <li>Cars</li>
-        <li>Futures</li>
-        <li>Contact Us</li>
-      </ul>
-    </header>
-    <main>
-      <section class="left-section">
-        <h1>Premium Car Rentals In New York</h1>
-        <p>
-          Don't deny your self the pleasure of driving the best premium cars
-          from around the world here and now
-        </p>
-      </section>
-      <section class="car-container">
-        <img src="/images/pngwing.com.png" alt="" width="1000px" />
-      </section>
+    <main class="main-layout">
+      <form>
+        <h1>Log In:</h1>
+        <label for="email"> Email </label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          class="email-input"
+          required
+        />
+        <br /><label for="password">Password</label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="password-input"
+          required
+          minlength="1"
+          maxlength="8"
+          placeholder="Enter your password"
+        />
+        <br />
+        <div class="login-or-signup">
+          <a href="/index.html"><p class="login">Log in</p></a>
+          
+         <div class="signup-and forgot-password">
+          <a href="/sign-up.html"><p>Sign up</p> </a>
+          <a href="/forgot-password.html" class="forgot-password">
+            <p>Forgot Password</p></a
+          >
+         </div>
+        </div>
+        <br />
+       
+      </form>
     </main>
-    <div class="logos">
-      <img src="/images/pngwing.com (2).png" alt="" width="50px" />
-      <img src="/images/pngwing.com (3).png" alt="" width="70px" />
-      <img src="/images/pngwing.com (4).png" alt="" width="50px" />
-      <img src="/images/pngwing.com (8).png" alt="" width="50px" />
-      <img src="/images/pngwing.com (6).png" alt="" width="50px" />
-      <img src="/images/pngwing.com (7).png" alt="" width="50px" />
-    </div>
   </body>
 </html>
