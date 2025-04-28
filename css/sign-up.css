@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Kumbh Sans", "sans-serif";
+}
+body {
+  background: url(/images/car1.jpg);
+  background-size: cover;
+  height: 155vh;
+  background-position: center;
+}
+.main-layout {
+  background-color: rgba(65, 49, 137, 0.452);
+  height: 155vh;
+  padding-top: 100px;
+}
+form {
+  background-color: rgba(0, 0, 0, 0.352);
+  width: 40%;
+  margin-inline: auto;
+  padding: 40px;
+  border-radius: 20px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+label {
+  font-weight: 500;
+  color: white;
+}
+.firstname-input {
+  width: 100%;
+  padding: 15px;
+  border: 0px;
+  background-color: rgba(140, 0, 255, 0.313);
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.lastname-input {
+  width: 100%;
+  padding: 15px;
+  border: 0px;
+  background-color: rgba(140, 0, 255, 0.313);
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.tel-input {
+  width: 100%;
+  padding: 15px;
+  border: 0px;
+  background-color: rgba(140, 0, 255, 0.313);
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.date-input {
+  width: 100%;
+  padding: 15px;
+  border: 0px;
+  background-color: rgba(140, 0, 255, 0.313);
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.email-input {
+  width: 100%;
+  padding: 15px;
+  border: 0px;
+  background-color: rgba(140, 0, 255, 0.313);
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.password-input {
+  width: 100%;
+  padding: 15px;
+  border: 0px;
+  background-color: rgba(140, 0, 255, 0.313);
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.login-or-signup {
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.signup-and {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.signup {
+  background-color: red;
+  border-radius: 30px;
+  width: 100%;
+  padding: 8px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.forgot-password {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(237, 43, 43);
+}
+
+@media screen and (max-width: 884px) {
+  .main-layout {
+    padding-top: 200px;
+    padding-inline: 50px;
+    height: 155vh;
+  }
+  form {
+    width: 100%;
+  }
+  h1 {
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  label {
+    font-size: 25px;
+  }
+  .firstname-input {
+    padding: 35px;
+  }
+  .lastname-input {
+    padding: 35px;
+  }
+  .tel-input {
+    padding: 35px;
+  }
+  .date-input {
+    padding: 35px;
+  }
+  .email-input {
+    padding: 35px;
+  }
+  .password-input {
+    padding: 35px;
+  }
+  .login-or-signup {
+    font-size: 30px;
+  }
+  .forgot-password {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-layout {
+    padding: 10px;
+    padding-top: 150px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+  }
+  form {
+    width: 100%;
+  }
+  ::placeholder {
+    font-size: 18px;
+  }
+  .firstname-input {
+    padding: 20px;
+  }
+  .lastname-input {
+    padding: 20px;
+  }
+  .tel-input {
+    padding: 20px;
+  }
+  .date-input {
+    padding: 20px;
+  }
+  .email-input {
+    padding: 20px;
+  }
+  .password-input {
+    padding: 20px;
+  }
+  .login-or-signup {
+    font-size: 20px;
+  }
+  .forgot-password {
+    font-size: 18px;
+  }
+}

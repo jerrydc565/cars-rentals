@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/sign-up.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up</title>
+  </head>
+  <body>
+    <main class="main-layout">
+      <form>
+        <h1>Sign Up:</h1>
+        <label for="text"> First name </label><br />
+        <input
+          type="text"
+          name="text"
+          id="text"
+          placeholder="Enter your first name"
+          required
+          class="firstname-input"
+        />
+        <br />
+        <label for="text"> Last name </label><br />
+        <input
+          type="text"
+          name="text"
+          id="name"
+          placeholder="Enter your last name"
+          required
+          class="lastname-input"
+        />
+        <br />
+        <label for="tel"> Phone number </label><br />
+        <input
+          type="tel"
+          name="tel"
+          id="tel"
+          placeholder="Enter your phone number"
+          required
+          minlength="1"
+          maxlength="14"
+          class="tel-input"
+        />
+        <br />
+        <label for="date"> Date </label><br />
+        <input type="date" name="date" id="date" required class="date-input" />
+
+        <br />
+        <label for="email"> Email </label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          class="email-input"
+          required
+        />
+        <br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="password-input"
+          required
+          minlength="1"
+          maxlength="8"
+          placeholder="Enter your password"
+        />
+        <br />
+        <div class="login-or-signup">
+          
+          <a href="/index.html"><p class="signup">Sign up</p> </a>
+          <div class="signup-and">
+            
+            <a href="/login.html"><p>Log in</p></a>
+            <a href="/forgot-password.html" class="forgot-password">
+              <p>Forgot Password</p></a
+            >
+          </div>
+        </div>
+        <br />
+       
+      </form>
+    </main>
+  </body>
+</html>
